@@ -1,0 +1,58 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ site.title }} - {{ site.description }}</title>
+        {% seo %}
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Profile Section -->
+            <div class="profile">
+                <img src="{{ site.avatar }}" alt="{{ site.title }}" class="avatar">
+                <h1 class="profile-name">{{ site.title }}</h1>
+                <p class="profile-tagline">{{ site.description }}</p>
+            </div>
+
+            <!-- Links Section -->
+            <div class="links">
+                {% for link in site.links %}
+                <a href="{{ link.url }}" class="link-card" target="_blank" rel="noopener noreferrer">
+                    <div class="link-icon">
+                        <i class="{{ link.icon }}"></i>
+                    </div>
+                    <div class="link-content">
+                        <h2 class="link-title">{{ link.title }}</h2>
+                        <p class="link-description">{{ link.description }}</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+            </footer>
+        </div>
+    </body>
+
+</html>

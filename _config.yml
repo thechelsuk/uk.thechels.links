@@ -1,0 +1,94 @@
+# Site settings
+title: "thechelsuk"
+description: "Links and resources"
+url: "https://mat-0.github.io"
+baseurl: "/links.thechels.uk"
+avatar: "assets/logo.png"
+
+# Social links - customize with your own
+links:
+  - title: "Ko-fi"
+    description: "Support me on Ko-fi"
+    url: "https://ko-fi.com/thechelsuk"
+    icon: "fas fa-coffee"
+
+  - title: "Throne"
+    description: "See wish list on Throne"
+    url: "https://throne.com/thechelsuk"
+    icon: "fa-brands fa-web-awesome"
+
+  - title: "Shop (Gumroad)"
+    description: "Support me on Gumroad"
+    url: "https://shop.thechelsuk"
+    icon: "fas fa-shopping-cart"
+
+  - title: "Signal"
+    description: "Private messaging"
+    url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
+    icon: "fas fa-comments"
+
+  - title: "App store"
+    description: "Check out my iOS apps"
+    url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+    icon: "fab fa-apple"
+
+  - title: "Apple Music"
+    description: "Listen to my playlists on on Apple Music"
+    url: "https://music.apple.com/profile/thechelsuk"
+    icon: "fab fa-itunes-note"
+
+  - title: "Keybase"
+    description: "Verify my identity on Keybase"
+    url: "https://keybase.io/thechelsuk"
+    icon: "fas fa-key"
+
+  - title: "Reddit"
+    description: "Check out my posts and discussions"
+    url: "https://reddit.com/user/thechelsuk"
+    icon: "fab fa-reddit"
+
+  - title: "YouTube"
+    description: "Watch my videos on YouTube"
+    url: "https://youtube.com/thechelsuk"
+    icon: "fab fa-youtube"
+
+  - title: "Twitch"
+    description: "Watch me live on Twitch"
+    url: "https://twitch.tv/thechelsuk"
+    icon: "fab fa-twitch"
+
+  - title: "Mastodon"
+    description: "Follow me on Mastodon"
+    url: "https://mastodon.social/@Thechelsuk"
+    icon: "fab fa-mastodon"
+
+  - title: "X (Twitter)"
+    description: "Follow me for updates"
+    url: "https://x.com/thechelsuk"
+    icon: "fab fa-x-twitter"
+
+  - title: "GitHub"
+    description: "Check out my code and projects"
+    url: "https://github.com/thechelsuk"
+    icon: "fab fa-github"
+
+  - title: "Website"
+    description: "Read my thoughts and articles"
+    url: "https://thechels.uk"
+    icon: "fas fa-rss"
+
+  - title: "Redbubble"
+    description: "Buy my designs on Redbubble"
+    url: "https://thechelsuk.redbubble.com/"
+    icon: "fas fa-tshirt"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

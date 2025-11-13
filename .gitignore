@@ -49,6 +49,18 @@ build-iPhoneSimulator/
 # .ruby-version
 # .ruby-gemset
 
+# Jekyll specific
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 

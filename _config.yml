@@ -4,6 +4,7 @@ description: "Links and resources"
 url: "https://mat-0.github.io"
 baseurl: "/links.thechels.uk"
 avatar: "assets/logo.png"
+share_url: "https://links.thechels.uk"
 
 # Social links - customize with your own
 links:
@@ -25,7 +26,7 @@ links:
   - title: "Signal"
     description: "Private messaging"
     url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
-    icon: "fas fa-comments"
+    icon: "fas fa-comment"
 
   - title: "App store"
     description: "Check out my iOS apps"

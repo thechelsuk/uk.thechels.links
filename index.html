@@ -23,11 +23,19 @@
 
     <body>
         <div class="container">
+            <!-- Share Button -->
+            <a href="{{ site.share_url }}" class="share-button" target="_blank" rel="noopener noreferrer"
+                title="Share this page">
+                <i class="fas fa-arrow-up-from-bracket"></i>
+            </a>
+
             <!-- Profile Section -->
             <div class="profile">
                 <img src="{{ site.avatar }}" alt="{{ site.title }}" class="avatar">
-                <h1 class="profile-name">{{ site.title }}</h1>
-                <p class="profile-tagline">{{ site.description }}</p>
+                <div class="profile-info">
+                    <h1 class="profile-name">{{ site.title }}</h1>
+                    <p class="profile-tagline">{{ site.description }}</p>
+                </div>
             </div>
 
             <!-- Links Section -->

@@ -1,8 +1,8 @@
 # Site settings
 title: "thechelsuk"
 description: "Links and resources"
-url: "https://mat-0.github.io"
-baseurl: "/links.thechels.uk"
+url: "https://links.thechels.uk"
+baseurl: "/"
 avatar: "assets/logo.png"
 share_url: "https://links.thechels.uk"
 

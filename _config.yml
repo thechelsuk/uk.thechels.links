@@ -1,6 +1,6 @@
 # Site settings
 title: "thechelsuk"
-description: "Links and resources"
+description: "Links and Resources"
 url: "https://links.thechels.uk"
 baseurl: "/"
 avatar: "assets/logo.png"
@@ -44,7 +44,7 @@ links:
     icon: "fas fa-key"
 
   - title: "Reddit"
-    description: "Check out my posts and discussions"
+    description: "Check out r/hiydapp & r/tomozapp"
     url: "https://reddit.com/user/thechelsuk"
     icon: "fab fa-reddit"
 

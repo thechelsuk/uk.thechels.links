@@ -2,17 +2,32 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ site.title }} - {{ site.description }}</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.png">
+        <link rel="mask-icon" href="/assets/logo.png" color="#005ca3">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="theme-color" content="#005ca3">
+        <meta name="msapplication-TileColor" content="#005ca3">
+        <meta name="msapplication-TileImage" content="/assets/logo.png">
+        <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/logo.png">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="1024">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/logo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/style.css">
     </head>
+
     <body>
         <div class="container">
             <a href="{{ site.share_url }}" class="share-button" target="_blank" rel="noopener noreferrer"
@@ -47,4 +62,5 @@
             </footer>
         </div>
     </body>
+
 </html>

@@ -1,0 +1,14 @@
+{
+    "name": "thechelsuk",
+    "short_name": "thechelsuk",
+    "icons": [
+        {
+            "src": "/assets/logo.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#005ca3",
+    "background_color": "#005ca3",
+    "display": "standalone"
+}

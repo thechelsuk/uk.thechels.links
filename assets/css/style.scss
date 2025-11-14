@@ -181,7 +181,8 @@ body {
 }
 
 .link-card:hover .link-icon {
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--accent-color);
+    color: var(--text-primary);
     transform: scale(1.1);
 }
 

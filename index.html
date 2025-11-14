@@ -2,34 +2,23 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ site.title }} - {{ site.description }}</title>
-        {% seo %}
-
-        <!-- Font Awesome -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-
-        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-        <!-- Custom CSS -->
         <link rel="stylesheet" href="/assets/css/style.css">
     </head>
-
     <body>
         <div class="container">
-            <!-- Share Button -->
             <a href="{{ site.share_url }}" class="share-button" target="_blank" rel="noopener noreferrer"
                 title="Share this page">
                 <i class="fas fa-arrow-up-from-bracket"></i>
             </a>
-
-            <!-- Profile Section -->
             <div class="profile">
                 <img src="{{ site.avatar }}" alt="{{ site.title }}" class="avatar">
                 <div class="profile-info">
@@ -37,8 +26,6 @@
                     <p class="profile-tagline">{{ site.description }}</p>
                 </div>
             </div>
-
-            <!-- Links Section -->
             <div class="links">
                 {% for link in site.links %}
                 <a href="{{ link.url }}" class="link-card" target="_blank" rel="noopener noreferrer">
@@ -55,12 +42,9 @@
                 </a>
                 {% endfor %}
             </div>
-
-            <!-- Footer -->
             <footer class="footer">
                 <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
             </footer>
         </div>
     </body>
-
 </html>

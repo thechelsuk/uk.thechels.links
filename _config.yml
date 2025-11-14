@@ -84,6 +84,8 @@ links:
 
 # Build settings
 markdown: kramdown
+include:
+  - assets/webfonts
 exclude:
   - Gemfile
   - Gemfile.lock

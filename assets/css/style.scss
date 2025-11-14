@@ -151,12 +151,16 @@ body {
     border-color: var(--primary-color);
 }
 
-.link-card:hover .link-icon,
 .link-card:hover .link-content,
 .link-card:hover .link-arrow {
     position: relative;
     z-index: 1;
     color: white;
+}
+
+.link-card:hover .link-icon {
+    position: relative;
+    z-index: 1;
 }
 
 .link-icon {

@@ -9,10 +9,6 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/_site/
-gemfiles/
-gem.lock
-
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -58,6 +54,8 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+Gemfile.lock
+Gemfile
 
 # OS files
 .DS_Store
@@ -70,3 +68,4 @@ _site/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+

@@ -1,10 +1,9 @@
 # Site settings
 title: "thechelsuk"
-description: "Links and Resources"
+description: "Links, Socials, and Resources"
 url: "https://links.thechels.uk"
 baseurl: "/"
 avatar: "assets/logo.png"
-share_url: "https://links.thechels.uk"
 
 # Social links - customize with your own
 links:

@@ -44,8 +44,8 @@ body {
     position: relative;
 }
 
-/* Share Button */
-.share-button {
+/* Site Link */
+.site-link {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -67,7 +67,7 @@ body {
     box-shadow: 0 4px 12px var(--shadow);
 }
 
-.share-button:hover {
+.site-link:hover {
     transform: translateY(-2px) scale(1.05);
     box-shadow: 0 6px 20px var(--shadow-hover);
 }

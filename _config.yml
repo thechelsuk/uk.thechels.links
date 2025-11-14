@@ -34,7 +34,7 @@ links:
     icon: "fab fa-apple"
 
   - title: "Apple Music"
-    description: "Listen to my playlists on on Apple Music"
+    description: "Listen to my curated monthly playlists."
     url: "https://music.apple.com/profile/thechelsuk"
     icon: "fab fa-itunes-note"
 
@@ -59,7 +59,7 @@ links:
     icon: "fab fa-twitch"
 
   - title: "Mastodon"
-    description: "Follow me on Mastodon"
+    description: "Follow & chat on Mastodon"
     url: "https://mastodon.social/@Thechelsuk"
     icon: "fab fa-mastodon"
 

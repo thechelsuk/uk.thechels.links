@@ -86,6 +86,8 @@ links:
 markdown: kramdown
 include:
   - assets/webfonts
+keep_files:
+  - assets/webfonts
 exclude:
   - Gemfile
   - Gemfile.lock

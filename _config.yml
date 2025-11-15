@@ -81,6 +81,12 @@ links:
     description: "Buy my designs on Redbubble"
     url: "https://thechelsuk.redbubble.com/"
     icon: "fas fa-tshirt"
+    
+  - title: "Shutterstock"
+    description: "Photgraphy"
+    url: "https://www.shutterstock.com/g/thechelsuk/"
+    icon: "fas fa-camera"
+
 
 # Build settings
 markdown: kramdown

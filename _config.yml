@@ -19,7 +19,7 @@ links:
 
   - title: "Shop (Gumroad)"
     description: "Support me on Gumroad"
-    url: "https://shop.thechelsuk"
+    url: "https://shop.thechels.uk"
     icon: "fas fa-shopping-cart"
 
   - title: "Signal"
@@ -86,6 +86,11 @@ links:
     description: "Photgraphy"
     url: "https://www.shutterstock.com/g/thechelsuk/"
     icon: "fas fa-camera"
+    
+  - title: "Hiyd"
+    description: "Hiyd App Marketing Site"
+    url: "https://hiyd.uk"
+    icon: "fas fa-app"
 
 
 # Build settings

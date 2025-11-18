@@ -1,47 +1,12 @@
 # Site settings
 title: "thechelsuk"
-description: "Links, Socials, and Resources"
+description: "All the links, socials, and resources"
 url: "https://links.thechels.uk"
 baseurl: "/"
 avatar: "assets/logo.png"
 
-# Social links - customize with your own
-links:
-  - title: "Ko-fi"
-    description: "Support me on Ko-fi"
-    url: "https://ko-fi.com/thechelsuk"
-    icon: "fas fa-coffee"
-
-  - title: "Throne"
-    description: "See wish list on Throne"
-    url: "https://throne.com/thechelsuk"
-    icon: "fa-brands fa-web-awesome"
-
-  - title: "Shop (Gumroad)"
-    description: "Support me on Gumroad"
-    url: "https://shop.thechels.uk"
-    icon: "fas fa-shopping-cart"
-
-  - title: "Signal"
-    description: "Private messaging"
-    url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
-    icon: "fas fa-comment"
-
-  - title: "App store"
-    description: "Check out my iOS apps"
-    url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
-    icon: "fab fa-apple"
-
-  - title: "Apple Music"
-    description: "Listen to my curated monthly playlists."
-    url: "https://music.apple.com/profile/thechelsuk"
-    icon: "fab fa-itunes-note"
-
-  - title: "Keybase"
-    description: "Verify my identity on Keybase"
-    url: "https://keybase.io/thechelsuk"
-    icon: "fas fa-key"
-
+# Social - Row of icons at the top
+social:
   - title: "Reddit"
     description: "Check out r/hiydapp & r/tomozapp"
     url: "https://reddit.com/user/thechelsuk"
@@ -67,28 +32,65 @@ links:
     url: "https://x.com/thechelsuk"
     icon: "fab fa-x-twitter"
 
+# links - customize with your own
+links:
+  - title: "Ko-fi"
+    description: "Support me on Ko-fi"
+    url: "https://ko-fi.com/thechelsuk"
+    icon: "fas fa-coffee"
+
+  - title: "Throne"
+    description: "See wish list on Throne"
+    url: "https://throne.com/thechelsuk"
+    icon: "fa-brands fa-web-awesome"
+
+  - title: "Shop (Gumroad)"
+    description: "Buy apps, fonts, and more on Gumroad"
+    url: "https://shop.thechels.uk"
+    icon: "fas fa-shopping-cart"
+
+  - title: "Signal"
+    description: "Private messaging"
+    url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
+    icon: "fas fa-comment"
+
+  - title: "App store"
+    description: "Check out my iOS apps"
+    url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+    icon: "fab fa-apple"
+
+  - title: "Apple Music"
+    description: "Listen to my curated monthly playlists."
+    url: "https://music.apple.com/profile/thechelsuk"
+    icon: "fab fa-itunes-note"
+
+  - title: "Keybase"
+    description: "Verify my identity on Keybase"
+    url: "https://keybase.io/thechelsuk"
+    icon: "fas fa-key"
+
+  - title: "Website"
+    description: "Official website"
+    url: "https://thechels.uk"
+    icon: "fas fa-home"
+
+  - title: "Redbubble"
+    description: "Shop for merchandise"
+    url: "https://thechelsuk.redbubble.com/"
+    icon: "fas fa-tshirt"
+
+  - title: "Shutterstock"
+    description: "Photography"
+    url: "https://www.shutterstock.com/g/thechelsuk/"
+    icon: "fas fa-camera"
+
   - title: "GitHub"
     description: "Check out my code and projects"
     url: "https://github.com/thechelsuk"
     icon: "fab fa-github"
 
-  - title: "Website"
-    description: "Read my thoughts and articles"
-    url: "https://thechels.uk"
-    icon: "fas fa-rss"
-
-  - title: "Redbubble"
-    description: "Buy my designs on Redbubble"
-    url: "https://thechelsuk.redbubble.com/"
-    icon: "fas fa-tshirt"
-    
-  - title: "Shutterstock"
-    description: "Photgraphy"
-    url: "https://www.shutterstock.com/g/thechelsuk/"
-    icon: "fas fa-camera"
-    
   - title: "Hiyd"
-    description: "Hiyd App Marketing Site"
+    description: "Hiyd App - Marketing Site"
     url: "https://hiyd.uk"
     icon: "fas fa-flask"
 

@@ -103,6 +103,39 @@ body {
     font-weight: 400;
 }
 
+/* Social Icons Section */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--card-background);
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.social-icon:hover {
+    transform: translateY(-4px) scale(1.1);
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 20px var(--shadow-hover);
+    color: var(--accent-color);
+}
+
 /* Links Section */
 .links {
     display: flex;
@@ -270,6 +303,16 @@ body {
 
     .profile-tagline {
         font-size: 1rem;
+    }
+
+    .social-icons {
+        gap: 0.75rem;
+    }
+
+    .social-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 1.25rem;
     }
 
     .link-card {

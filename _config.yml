@@ -32,6 +32,11 @@ social:
     url: "https://x.com/thechelsuk"
     icon: "fab fa-x-twitter"
 
+  - title: "GitHub"
+    description: "Codes and projects"
+    url: "https://github.com/thechelsuk"
+    icon: "fab fa-github" 
+
 # links - customize with your own
 links:
   - title: "Website"
@@ -79,11 +84,6 @@ links:
     url: "https://www.shutterstock.com/g/thechelsuk?rid=476625451&utm_source=ctrbreferral-link"
     icon: "fas fa-camera"
 
-  - title: "GitHub"
-    description: "Check out my code and projects"
-    url: "https://github.com/thechelsuk"
-    icon: "fab fa-github"
-
   - title: "Hiyd"
     description: "Hiyd App - Marketing Site"
     url: "https://hiyd.uk"
@@ -93,6 +93,11 @@ links:
     description: "Verify my identity on Keybase"
     url: "https://keybase.io/thechelsuk"
     icon: "fas fa-key"
+    
+  - title: "Drafts.App Actions"
+    description: "Scripts and actions for Drafts"
+    url: "https://directory.getdrafts.com/search?utf8=✓&q=thechelsuk"
+    icon: "fas fa-file-code" 
 
 # Build settings
 markdown: kramdown

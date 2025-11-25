@@ -65,7 +65,12 @@
                 {% endfor %}
             </div>
             <footer class="footer">
-                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+                 <p>
+                    &copy; {{ 'now' | date: "%Y" }} 
+                    <a href="https://thechels.uk">{{ site.title}}</a> |
+                    <a href="https://tools.thechels.uk">Tools</a> | 
+                    <a href="https://feeds.thechels.uk">Feeds</a>
+                 </p>
             </footer>
         </div>
     </body>

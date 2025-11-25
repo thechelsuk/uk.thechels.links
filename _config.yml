@@ -37,10 +37,10 @@ social:
     url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
     icon: "fa-brands fa-signal-messenger" 
 
-  - title: "GitHub"
-    description: "Codes and projects"
-    url: "https://github.com/thechelsuk"
-    icon: "fab fa-github" 
+  - title: "Keybase"
+    description: "Verify my identity on Keybase"
+    url: "https://keybase.io/thechelsuk"
+    icon: "fas fa-keybase" 
 
 # links - customize with your own
 links:
@@ -89,10 +89,10 @@ links:
     url: "https://hiyd.uk"
     icon: "fas fa-flask"
 
-  - title: "Keybase"
-    description: "Verify my identity on Keybase"
-    url: "https://keybase.io/thechelsuk"
-    icon: "fas fa-key"
+  - title: "GitHub"
+    description: "Codes and projects"
+    url: "https://github.com/thechelsuk"
+    icon: "fab fa-github" 
     
   - title: "Drafts.App Actions"
     description: "Scripts and actions for Drafts"

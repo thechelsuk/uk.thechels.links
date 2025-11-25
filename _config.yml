@@ -67,7 +67,7 @@ links:
   - title: "App store"
     description: "Check out my iOS apps"
     url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
-    icon: "fab fa-apple"
+    icon: "fa-brands fa-app-store-ios"
 
   - title: "Apple Music"
     description: "Listen to my curated monthly playlists."

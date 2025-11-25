@@ -7,6 +7,7 @@
     --primary-hover: #004a82;
     --secondary-color: #0077cc;
     --accent-color: #cec452;
+    --link-color: #295147;
     --background: #f7fafc;
     --card-background: #ffffff;
     --text-primary: #2d3748;
@@ -274,6 +275,16 @@ body {
     border-top: 2px solid var(--accent-color);
     color: var(--text-secondary);
     font-size: 0.8125rem;
+}
+
+.footer a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--accent-color);
 }
 
 /* Responsive Design */

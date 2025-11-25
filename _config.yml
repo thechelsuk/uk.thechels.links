@@ -35,12 +35,12 @@ social:
   - title: "Signal"
     description: "Private messaging"
     url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
-    icon: "fa-brands fa-signal-messenger" 
+    icon: "fa-brands fa-signal-messenger"
 
   - title: "Keybase"
     description: "Verify my identity on Keybase"
     url: "https://keybase.io/thechelsuk"
-    icon: "fa-brands fa-keybase" 
+    icon: "fa-brands fa-keybase"
 
 # links - customize with your own
 links:
@@ -92,12 +92,12 @@ links:
   - title: "GitHub"
     description: "Codes and projects"
     url: "https://github.com/thechelsuk"
-    icon: "fab fa-github" 
-    
+    icon: "fab fa-github"
+
   - title: "Drafts.App Actions"
     description: "Scripts and actions for Drafts"
     url: "https://directory.getdrafts.com/search?utf8=✓&q=thechelsuk"
-    icon: "fas fa-file-code" 
+    icon: "fas fa-file-code"
 
 # Build settings
 markdown: kramdown

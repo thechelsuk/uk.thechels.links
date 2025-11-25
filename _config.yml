@@ -64,11 +64,10 @@ links:
     url: "https://shop.thechels.uk"
     icon: "fas fa-shopping-cart"
 
-
   - title: "App store"
     description: "Check out my iOS apps"
     url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
-    icon: "fa-brands fa-app-store-ios"
+    icon: "fa-brands fa-app-store"
 
   - title: "Apple Music"
     description: "Listen to my curated monthly playlists."

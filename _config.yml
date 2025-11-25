@@ -99,6 +99,26 @@ links:
     url: "https://directory.getdrafts.com/search?utf8=✓&q=thechelsuk"
     icon: "fas fa-file-code"
 
+# Footer links
+footer_links:
+  - title: "home"
+    url: "https://thechels.uk"
+
+  - title: "tools"
+    url: "https://tools.thechels.uk"
+
+  - title: "feeds"
+    url: "https://feeds.thechels.uk"
+
+  - title: "cod"
+    url: "https://cod.thechels.uk"
+
+  - title: "privacy"
+    url: "https://thechels.uk/.well-known/privacy.txt"
+
+  - title: "security"
+    url: "https://thechels.uk/.well-known/security.txt"
+
 # Build settings
 markdown: kramdown
 include:

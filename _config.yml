@@ -32,6 +32,11 @@ social:
     url: "https://x.com/thechelsuk"
     icon: "fab fa-x-twitter"
 
+  - title: "Signal"
+    description: "Private messaging"
+    url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
+    icon: "fa-brands fa-signal-messenger" 
+
   - title: "GitHub"
     description: "Codes and projects"
     url: "https://github.com/thechelsuk"
@@ -59,10 +64,6 @@ links:
     url: "https://shop.thechels.uk"
     icon: "fas fa-shopping-cart"
 
-  - title: "Signal"
-    description: "Private messaging"
-    url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"
-    icon: "fas fa-comment"
 
   - title: "App store"
     description: "Check out my iOS apps"

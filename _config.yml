@@ -40,7 +40,7 @@ social:
   - title: "Keybase"
     description: "Verify my identity on Keybase"
     url: "https://keybase.io/thechelsuk"
-    icon: "fas fa-keybase" 
+    icon: "fa-brands fa-keybase" 
 
 # links - customize with your own
 links:

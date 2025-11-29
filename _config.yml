@@ -45,27 +45,27 @@ social:
 # links - customize with your own
 links:
   - title: "Website"
-    description: "Official website"
+    description: "Official website."
     url: "https://thechels.uk"
     icon: "fas fa-home"
 
   - title: "Ko-fi"
-    description: "Support me on Ko-fi"
+    description: "Support me on Ko-fi."
     url: "https://ko-fi.com/thechelsuk"
     icon: "fas fa-coffee"
 
   - title: "Throne"
-    description: "See wish list on Throne"
+    description: "Gift with privacy with Throne."
     url: "https://throne.com/thechelsuk"
     icon: "fa-brands fa-web-awesome"
 
   - title: "Store"
-    description: "Buy apps, fonts, and more on Gumroad"
+    description: "Buy apps, fonts, and more on Gumroad."
     url: "https://shop.thechels.uk"
     icon: "fas fa-shopping-cart"
 
   - title: "App store"
-    description: "Check out my iOS apps"
+    description: "Check out my iOS apps."
     url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
     icon: "fa-brands fa-app-store"
 
@@ -75,27 +75,27 @@ links:
     icon: "fab fa-itunes-note"
 
   - title: "Redbubble"
-    description: "Shop for merchandise"
+    description: "Shop for merchandise."
     url: "https://thechelsuk.redbubble.com/"
     icon: "fas fa-tshirt"
 
   - title: "Shutterstock"
-    description: "Photography"
+    description: "Photography."
     url: "https://www.shutterstock.com/g/thechelsuk?rid=476625451&utm_source=ctrbreferral-link"
     icon: "fas fa-camera"
 
   - title: "Hiyd"
-    description: "Hiyd App - Marketing Site"
+    description: "Hiyd App - Official marketing site."
     url: "https://hiyd.uk"
     icon: "fas fa-flask"
 
   - title: "GitHub"
-    description: "Codes and projects"
+    description: "Codes and projects."
     url: "https://github.com/thechelsuk"
     icon: "fab fa-github"
 
-  - title: "Drafts.App Actions"
-    description: "Scripts and actions for Drafts"
+  - title: "Drafts Actions"
+    description: "Scripts and actions for Drafts."
     url: "https://directory.getdrafts.com/search?utf8=✓&q=thechelsuk"
     icon: "fas fa-file-code"
 

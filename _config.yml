@@ -103,6 +103,21 @@ links:
 footer_links:
   - title: "home"
     url: "https://thechels.uk"
+    
+  - title: "Tomoz"
+    url: "https://apps.apple.com/gb/app/tomoz/id6748755747"
+
+  - title: "ShortKeys"
+    url: "https://apps.apple.com/gb/app/shortkeys/id6755919256"
+
+  - title: "Hiyd"
+    url: "https://apps.apple.com/gb/app/hiyd/id6746853559"
+    
+  - title: "EngMan"
+    url: "https://apps.apple.com/gb/app/engman/id6747295473"
+    
+  - title: "Mltply"
+    url: "https://apps.apple.com/gb/app/mltply/id6747147316"
 
   - title: "tools"
     url: "https://tools.thechels.uk"

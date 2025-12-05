@@ -72,12 +72,12 @@
                 <div class="footer-links-container">
                     <div class="footer-row footer-apps">
                         {% for link in site.footer_links_apps %}
-                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | upcase }}</a>
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | capitalize }}</a>
                         {% endfor %}
                     </div>
                     <div class="footer-row footer-websites">
                         {% for link in site.footer_links_web %}
-                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | upcase }}</a>
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | capitalize }}</a>
                         {% endfor %}
                     </div>
                 </div>

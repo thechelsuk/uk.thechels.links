@@ -117,19 +117,19 @@ footer_links_apps:
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
 
 footer_links_web:
-  - title: "tools"
+  - title: "Tools"
     url: "https://tools.thechels.uk"
 
-  - title: "feeds"
+  - title: "Feeds"
     url: "https://feeds.thechels.uk"
 
-  - title: "cod"
+  - title: "Cod"
     url: "https://cod.thechels.uk"
 
-  - title: "privacy"
+  - title: "Privacy"
     url: "https://thechels.uk/.well-known/privacy.txt"
 
-  - title: "security"
+  - title: "Security"
     url: "https://thechels.uk/.well-known/security.txt"
 
 # Build settings

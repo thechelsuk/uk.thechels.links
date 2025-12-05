@@ -65,12 +65,22 @@
                 {% endfor %}
             </div>
             <footer class="footer">
-                <p>
+                <div class="footer-copyright">
                     &copy; {{ 'now' | date: "%Y" }} {{ site.title }}
-                    {% for link in site.footer_links %}
-                    | <a href="{{ link.url }}">{{ link.title }}</a>
-                    {% endfor %}
-                </p>
+                    | <a href="https://thechels.uk" target="_blank" rel="noopener noreferrer">Official Website</a>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-row footer-apps">
+                        {% for link in site.footer_links_apps %}
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | capitalize }}</a>
+                        {% endfor %}
+                    </div>
+                    <div class="footer-row footer-websites">
+                        {% for link in site.footer_links_web %}
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | capitalize }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
             </footer>
         </div>
     </body>

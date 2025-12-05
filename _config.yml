@@ -100,10 +100,7 @@ links:
     icon: "fas fa-file-code"
 
 # Footer links
-footer_links:
-  - title: "home"
-    url: "https://thechels.uk"
-    
+footer_links_apps:
   - title: "Tomoz"
     url: "https://apps.apple.com/gb/app/tomoz/id6748755747"
 
@@ -119,6 +116,7 @@ footer_links:
   - title: "Mltply"
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
 
+footer_links_web:
   - title: "tools"
     url: "https://tools.thechels.uk"
 

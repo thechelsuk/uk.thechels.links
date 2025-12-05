@@ -282,6 +282,16 @@ body {
     color: var(--text-secondary);
 }
 
+.footer-copyright a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-copyright a:hover {
+    color: var(--accent-color);
+}
+
 .footer-links-container {
     display: flex;
     flex-direction: column;

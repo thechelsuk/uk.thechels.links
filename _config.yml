@@ -103,36 +103,47 @@ links:
 footer_links:
   - title: "home"
     url: "https://thechels.uk"
+    type: "website"
     
   - title: "Tomoz"
     url: "https://apps.apple.com/gb/app/tomoz/id6748755747"
+    type: "app"
 
   - title: "ShortKeys"
     url: "https://apps.apple.com/gb/app/shortkeys/id6755919256"
+    type: "app"
 
   - title: "Hiyd"
     url: "https://apps.apple.com/gb/app/hiyd/id6746853559"
+    type: "app"
     
   - title: "EngMan"
     url: "https://apps.apple.com/gb/app/engman/id6747295473"
+    type: "app"
     
   - title: "Mltply"
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
+    type: "app"
 
   - title: "tools"
     url: "https://tools.thechels.uk"
+    type: "website"
 
   - title: "feeds"
     url: "https://feeds.thechels.uk"
+    type: "website"
 
   - title: "cod"
     url: "https://cod.thechels.uk"
+    type: "website"
 
   - title: "privacy"
     url: "https://thechels.uk/.well-known/privacy.txt"
+    type: "website"
 
   - title: "security"
     url: "https://thechels.uk/.well-known/security.txt"
+    type: "website"
 
 # Build settings
 markdown: kramdown

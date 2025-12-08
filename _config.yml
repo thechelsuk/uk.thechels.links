@@ -27,11 +27,6 @@ social:
     url: "https://mastodon.social/@Thechelsuk"
     icon: "fab fa-mastodon"
 
-  - title: "X (Twitter)"
-    description: "Follow me for updates"
-    url: "https://x.com/thechelsuk"
-    icon: "fab fa-x-twitter"
-
   - title: "Signal"
     description: "Private messaging"
     url: "https://signal.me/#eu/BizXBBg5kvZWt8bjNg-TNpekSp9dJMBUXzLlNCaYil27chQ_yoVItr5fBPF9n0jE"

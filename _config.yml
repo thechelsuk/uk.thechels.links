@@ -26,6 +26,11 @@ social:
     description: "Follow & chat on Mastodon"
     url: "https://mastodon.social/@Thechelsuk"
     icon: "fab fa-mastodon"
+    
+  - title: "BlueSky"
+    description: "Follow & chat on BlueSky"
+    url: "https://bsky.app/profile/thechelsuk.bsky.social"
+    icon: "fab fa-bluesky"
 
   - title: "Signal"
     description: "Private messaging"

@@ -52,7 +52,7 @@ links:
   - title: "Toolkit"
     description: "Online Tools"
     url: "https://tools.thechels.uk"
-    icon: "fas fa-toolkit"
+    icon: "fa-solid fa-toolbox
 
   - title: "Ko-fi"
     description: "Support me on Ko-fi."

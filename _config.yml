@@ -49,6 +49,11 @@ links:
     url: "https://thechels.uk"
     icon: "fas fa-home"
 
+  - title: "Toolkit"
+    description: "Online Tools"
+    url: "https://tools.thechels.uk"
+    icon: "fas fa-toolkit"
+
   - title: "Ko-fi"
     description: "Support me on Ko-fi."
     url: "https://ko-fi.com/thechelsuk"
@@ -117,8 +122,6 @@ footer_links_apps:
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
 
 footer_links_web:
-  - title: "Tools"
-    url: "https://tools.thechels.uk"
 
   - title: "Feeds"
     url: "https://feeds.thechels.uk"

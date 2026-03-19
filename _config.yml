@@ -8,7 +8,7 @@ avatar: "assets/logo.png"
 # Social - Row of icons at the top
 social:
   - title: "Reddit"
-    description: "Check out r/hiydapp & r/tomozapp"
+    description: "Check out r/hiydapp, r/shortkeysApp, & r/tomozapp"
     url: "https://reddit.com/user/thechelsuk"
     icon: "fab fa-reddit"
 
@@ -26,7 +26,7 @@ social:
     description: "Follow & chat on Mastodon"
     url: "https://mastodon.social/@Thechelsuk"
     icon: "fab fa-mastodon"
-    
+
   - title: "BlueSky"
     description: "Follow & chat on BlueSky"
     url: "https://bsky.app/profile/thechels.uk"
@@ -104,6 +104,11 @@ links:
     url: "https://directory.getdrafts.com/search?utf8=✓&q=thechelsuk"
     icon: "fas fa-file-code"
 
+  - title: "NetNewsWire Themes"
+    description: "Themes for the excellent NetNewsWire App."
+    url: "https://thechels.uk/nnw-themes"
+    icon: "fas fa-rss"
+
 # Footer links
 footer_links_apps:
   - title: "Tomoz"
@@ -114,10 +119,10 @@ footer_links_apps:
 
   - title: "Hiyd"
     url: "https://apps.apple.com/gb/app/hiyd/id6746853559"
-    
+
   - title: "EngMan"
     url: "https://apps.apple.com/gb/app/engman/id6747295473"
-    
+
   - title: "Mltply"
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
 

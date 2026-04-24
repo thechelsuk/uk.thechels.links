@@ -107,8 +107,8 @@ links:
     icon: "fas fa-file-code"
 
   - title: "NPM"
-    description: "NPM Packages"
-    url: "https://www.npmjs.com/~thechelsuk"
+    description: "Published NPM Packages"
+    url: "https://npmx.dev/org/thechelsuk"
     icon: "fa-brands fa-npm"
 
 # Footer links

@@ -104,11 +104,6 @@ links:
     url: "https://directory.getdrafts.com/search?utf8=✓&q=thechelsuk"
     icon: "fas fa-file-code"
 
-  - title: "NetNewsWire Themes"
-    description: "Themes for the excellent NetNewsWire App."
-    url: "https://thechels.uk/nnw-themes"
-    icon: "fas fa-rss"
-
 # Footer links
 footer_links_apps:
   - title: "Tomoz"

@@ -41,7 +41,13 @@ social:
     description: "Verify my identity on Keybase"
     url: "https://keybase.io/thechelsuk"
     icon: "fa-brands fa-keybase"
-
+    
+  - title: "NPM"
+    description: "NPM Packages"
+    url: "https://www.npmjs.com/~thechelsuk"
+    icon: "fa-brands fa-npm"    
+    
+    
 # links - customize with your own
 links:
   - title: "Website"

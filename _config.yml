@@ -111,6 +111,12 @@ links:
     url: "https://npmx.dev/org/thechelsuk"
     icon: "fa-brands fa-npm"
 
+  - title: "Gravatar"
+    description: "Verify my identity on Gravatar"
+    url: "https://gravatar.com/thechelsuk"
+    icon: "fa-brands fa-wordpress"
+
+
 # Footer links
 footer_links_apps:
   - title: "Tomoz"

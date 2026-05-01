@@ -58,7 +58,7 @@ links:
   - title: "Ko-fi"
     description: "Support me on Ko-fi."
     url: "https://ko-fi.com/thechelsuk"
-    icon: "fas fa-coffee"
+    icon: "fa-brands fa-ko-fi"
 
   - title: "Throne"
     description: "Gift with privacy with Throne."

@@ -24,7 +24,7 @@ social:
 
   - title: "Mastodon"
     description: "Follow & chat on Mastodon"
-    url: "https://mastodon.social/@Thechelsuk"
+    url: "https://mastodon.social/@thechels@thechelsuk"
     icon: "fab fa-mastodon"
 
   - title: "BlueSky"
@@ -43,7 +43,7 @@ social:
     url: "https://keybase.io/thechelsuk"
     icon: "fa-brands fa-keybase"
 
-# links - customize with your own
+
 links:
   - title: "Website"
     description: "Official website."

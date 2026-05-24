@@ -24,7 +24,7 @@ social:
 
   - title: "Mastodon"
     description: "Follow & chat on Mastodon"
-    url: "https://mastodon.social/@thechels@thechelsuk"
+    url: "https://mastodon.social/@thechels.uk@thechels.uk"
     icon: "fab fa-mastodon"
 
   - title: "BlueSky"
@@ -43,6 +43,10 @@ social:
     url: "https://keybase.io/thechelsuk"
     icon: "fa-brands fa-keybase"
 
+  - title: "GitHub"
+    description: "Codes and projects."
+    url: "https://github.com/thechelsuk"
+    icon: "fab fa-github"
 
 links:
   - title: "Website"
@@ -95,11 +99,6 @@ links:
     description: "Hiyd App - Official marketing site."
     url: "https://hiyd.uk"
     icon: "fas fa-flask"
-
-  - title: "GitHub"
-    description: "Codes and projects."
-    url: "https://github.com/thechelsuk"
-    icon: "fab fa-github"
 
   - title: "Drafts Actions"
     description: "Scripts and actions for Drafts."

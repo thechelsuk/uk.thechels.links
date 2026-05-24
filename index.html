@@ -42,15 +42,15 @@
             </div>
             <div class="social-icons">
                 {% for social in site.social %}
-                <a href="{{ social.url }}" class="social-icon" target="_blank" rel="noopener noreferrer"
-                    aria-label="{{ social.title }}">
+                <a href="{{ social.url }}" class="social-icon" target="_blank" rel="me"
+                    aria-label="{{ social.title }}" title="{{ social.title }}">
                     <i class="{{ social.icon }}"></i>
                 </a>
                 {% endfor %}
             </div>
             <div class="links">
                 {% for link in site.links %}
-                <a href="{{ link.url }}" class="link-card" target="_blank" rel="noopener noreferrer">
+                <a href="{{ link.url }}" class="link-card" target="_blank" rel="me">
                     <div class="link-icon">
                         <i class="{{ link.icon }}"></i>
                     </div>

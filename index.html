@@ -42,13 +42,26 @@
             </div>
             <div class="social-icons">
                 {% for social in site.social %}
-                <a href="{{ social.url }}" class="social-icon" target="_blank" rel="me"
-                    aria-label="{{ social.title }}" title="{{ social.title }}">
+                <a href="{{ social.url }}" class="social-icon" target="_blank" rel="me" aria-label="{{ social.title }}"
+                    title="{{ social.title }}">
                     <i class="{{ social.icon }}"></i>
                 </a>
                 {% endfor %}
             </div>
             <div class="links">
+                {% assign offer = site.data.offers | sample %}
+                <a href="{{ offer.url }}" class="link-card offer-card" target="_blank" rel="me sponsored">
+                    <div class="link-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div class="link-content">
+                        <h2 class="link-title">Offer</h2>
+                        <p class="link-description">{{ offer.description }}</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
                 {% for link in site.links %}
                 <a href="{{ link.url }}" class="link-card" target="_blank" rel="me">
                     <div class="link-icon">
@@ -71,12 +84,14 @@
                 <div class="footer-links-container">
                     <div class="footer-row footer-apps">
                         {% for link in site.footer_links_apps %}
-                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | capitalize }}</a>
+                        <a href="{{ link.url }}" target="_blank"
+                            rel="noopener noreferrer">{{ link.title | capitalize }}</a>
                         {% endfor %}
                     </div>
                     <div class="footer-row footer-websites">
                         {% for link in site.footer_links_web %}
-                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title | capitalize }}</a>
+                        <a href="{{ link.url }}" target="_blank"
+                            rel="noopener noreferrer">{{ link.title | capitalize }}</a>
                         {% endfor %}
                     </div>
                 </div>

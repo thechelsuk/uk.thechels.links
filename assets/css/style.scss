@@ -175,6 +175,10 @@ body {
     z-index: 0;
 }
 
+.offer-card {
+    border: 2px dashed var(--accent-color);
+}
+
 .link-card:hover::before {
     opacity: 1;
 }

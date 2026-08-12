@@ -59,6 +59,16 @@ links:
     url: "https://tools.thechels.uk"
     icon: "fa-solid fa-toolbox"
 
+  - title: "Cheltenham Open Data"
+    description: "Local data for local people."
+    url: "https://cheltenham-od.uk"
+    icon: "fa-solid fa-map"
+
+  - title: "Nuchronic"
+    description: "A webring for the chronically ill"
+    url: "https://nuchronic.uk"
+    icon: "fa-solid fa-feed"
+
   - title: "Ko-fi"
     description: "Support me on Ko-fi."
     url: "https://ko-fi.com/thechelsuk"
@@ -137,9 +147,6 @@ footer_links_web:
 
   - title: "Feeds"
     url: "https://feeds.thechels.uk"
-
-  - title: "Cod"
-    url: "https://cheltenham-od.uk"
 
   - title: "Privacy"
     url: "https://thechels.uk/.well-known/privacy.txt"

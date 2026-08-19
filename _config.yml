@@ -125,7 +125,12 @@ links:
     url: "https://gravatar.com/thechelsuk"
     icon: "fa-brands fa-wordpress"
 
+  - title: "Contact me"
+    description: "Ask me anything"
+    url: "https://thechels.uk/c/ama"
+    icon: "fa fa-email"
 
+    
 # Footer links
 footer_links_apps:
   - title: "Tomoz"

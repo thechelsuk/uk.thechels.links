@@ -125,10 +125,10 @@ links:
     url: "https://gravatar.com/thechelsuk"
     icon: "fa-brands fa-wordpress"
 
-  - title: "Contact me"
+  - title: "Contact Form"
     description: "Ask me anything"
     url: "https://thechels.uk/c/ama"
-    icon: "fa fa-email"
+    icon: "fa fa-envelope"
 
 
 # Footer links

@@ -150,9 +150,6 @@ footer_links_apps:
 
 footer_links_web:
 
-  - title: "Feeds"
-    url: "https://feeds.thechels.uk"
-
   - title: "Privacy"
     url: "https://thechels.uk/.well-known/privacy.txt"
 

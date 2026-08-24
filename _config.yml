@@ -1,10 +1,22 @@
-# Site settings
+#### Site settings ############
+baseurl: "/"
+avatar: "assets/logo.png"
+# Build settings
+markdown: kramdown
+include:
+  - assets/webfonts
+keep_files:
+  - assets/webfonts
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+#############################################
 title: "thechelsuk"
 description: "All the links, socials, and resources"
 url: "https://links.thechels.uk"
-baseurl: "/"
-avatar: "assets/logo.png"
-
+#############################################
 # Social - Row of icons at the top
 social:
   - title: "Reddit"
@@ -47,7 +59,7 @@ social:
     description: "Codes and projects."
     url: "https://github.com/thechelsuk"
     icon: "fab fa-github"
-
+# Main links
 links:
   - title: "Website"
     description: "Official website."
@@ -129,8 +141,7 @@ links:
     description: "Ask me anything"
     url: "https://thechels.uk/c/ama"
     icon: "fas fa-envelope"
-
-
+###############
 # Footer links
 footer_links_apps:
   - title: "Tomoz"
@@ -147,23 +158,9 @@ footer_links_apps:
 
   - title: "Mltply"
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
-
+################
 footer_links_web:
-
   - title: "Privacy"
     url: "https://thechels.uk/.well-known/privacy.txt"
-
   - title: "Security"
     url: "https://thechels.uk/.well-known/security.txt"
-
-# Build settings
-markdown: kramdown
-include:
-  - assets/webfonts
-keep_files:
-  - assets/webfonts
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor

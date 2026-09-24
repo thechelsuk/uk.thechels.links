@@ -1,5 +1,6 @@
 #### Site settings ############
 baseurl: "/"
+port: 1111
 avatar: "assets/logo.png"
 # Build settings
 markdown: kramdown
@@ -28,6 +29,11 @@ social:
     description: "Watch my videos on YouTube"
     url: "https://youtube.com/thechelsuk"
     icon: "fab fa-youtube"
+
+  - title: "Instagram"
+    description: "Follow on Insta"
+    url: "https://instagram.com/CheltenhamOD"
+    icon: "fab fa-instagram"
 
   - title: "Twitch"
     description: "Watch me live on Twitch"

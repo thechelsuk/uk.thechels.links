@@ -107,34 +107,36 @@ body {
 /* Social Icons Section */
 .social-icons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+    gap: 0.5rem 1rem;
     margin-bottom: 1rem;
     padding: 1rem 0;
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--card-background);
-    border: 2px solid var(--border-color);
-    border-radius: 50%;
     color: var(--text-primary);
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px var(--shadow);
+    border-radius: 8px;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.social-icon:hover {
-    transform: translateY(-4px) scale(1.1);
-    border-color: var(--accent-color);
-    box-shadow: 0 8px 20px var(--shadow-hover);
+.social-icon:hover,
+.social-icon:focus-visible {
     color: var(--accent-color);
+    transform: translateY(-3px) scale(1.1);
+}
+
+.social-icon:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }
 
 /* Links Section */
@@ -359,16 +361,17 @@ body {
         font-size: 1rem;
     }
 
+    /* Five slots per row; a shorter last row is centred, so
+       its icons sit between the ones above for any count */
     .social-icons {
-        gap: 0.75rem;
+        gap: 0.5rem 0;
         margin-bottom: 0.5rem;
         padding: 0.75rem 0;
     }
 
     .social-icon {
-        width: 40px;
-        height: 40px;
-        font-size: 1.25rem;
+        flex-basis: 20%;
+        font-size: clamp(1.5rem, 7.5vw, 1.875rem);
     }
 
     .link-card {

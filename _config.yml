@@ -96,6 +96,11 @@ links:
     url: "https://shop.thechels.uk"
     icon: "fas fa-shopping-cart"
 
+  - title: "Etsy"
+    description: "Printable maths workbooks and digital downloads on Etsy."
+    url: "https://www.etsy.com/shop/thechelsuk"
+    icon: "fa-brands fa-etsy"
+
   - title: "App store"
     description: "Check out my iOS apps."
     url: "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"

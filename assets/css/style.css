@@ -313,8 +313,8 @@ body {
 
 /* Footer apps: icon links to the marketing site, badge to the App Store */
 .footer-row.footer-apps {
-    gap: 0.5rem;
-    margin-bottom: 0.25rem;
+    gap: 0.6rem;
+    margin: 0.25rem 0 0.5rem;
 }
 
 .footer-row.footer-apps a::after {
@@ -328,9 +328,9 @@ body {
 
 .footer-app img {
     display: block;
-    width: 26px;
-    height: 26px;
-    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
     box-shadow: 0 1px 3px var(--shadow);
     transition: transform var(--transition);
 }
@@ -345,14 +345,14 @@ body {
 
 .footer-row a.footer-app-store {
     position: absolute;
-    right: -4px;
-    bottom: -4px;
-    width: 14px;
-    height: 14px;
+    right: -5px;
+    bottom: -5px;
+    width: 17px;
+    height: 17px;
     border-radius: 50%;
     background: var(--card-background);
     color: var(--text-primary);
-    font-size: 0.55rem;
+    font-size: 0.65rem;
     display: grid;
     place-items: center;
     box-shadow: 0 0 0 1px var(--border-color);
@@ -364,12 +364,21 @@ body {
 
 @media (max-width: 400px) {
     .footer-row.footer-apps {
-        gap: 0.35rem;
+        gap: 0.3rem;
     }
 
     .footer-app img {
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
+        border-radius: 7px;
+    }
+
+    .footer-row a.footer-app-store {
+        right: -3px;
+        bottom: -3px;
+        width: 14px;
+        height: 14px;
+        font-size: 0.55rem;
     }
 }
 

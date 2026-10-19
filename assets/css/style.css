@@ -35,6 +35,10 @@
     --social-icon-size: 1.875rem;
     --social-tap-size: 44px;
     --social-icons-per-row: 5; /* small screens only */
+
+    /* Footer app icons */
+    --app-icon-size: 48px;
+    --app-icons-per-row: 9;
 }
 
 /* Reset and Base Styles */
@@ -311,10 +315,12 @@ body {
     pointer-events: none;
 }
 
-/* Footer apps: icon links to the marketing site, badge to the App Store */
+/* Footer apps: icon links to the marketing site, badge to the App Store.
+   Each icon gets an equal share of the row, like the social bar, so spacing
+   stays even and a wrapped last row is centred. */
 .footer-row.footer-apps {
-    gap: 0.6rem;
-    margin: 0.25rem 0 0.5rem;
+    gap: 0.75rem 0;
+    margin: 0.5rem 0 0.75rem;
 }
 
 .footer-row.footer-apps a::after {
@@ -323,20 +329,28 @@ body {
 
 .footer-app {
     position: relative;
-    display: inline-flex;
+    flex: 0 0 calc(100% / var(--app-icons-per-row));
+    display: flex;
+    justify-content: center;
+}
+
+.footer-app > a:first-child {
+    position: relative;
+    display: block;
 }
 
 .footer-app img {
     display: block;
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
+    width: var(--app-icon-size);
+    height: var(--app-icon-size);
+    border-radius: 11px;
     box-shadow: 0 1px 3px var(--shadow);
     transition: transform var(--transition);
 }
 
-.footer-app a:hover img {
-    transform: translateY(-2px);
+.footer-app a:hover img,
+.footer-app a:focus-visible img {
+    transform: translateY(-3px);
 }
 
 .footer-app.is-soon img {
@@ -345,14 +359,14 @@ body {
 
 .footer-row a.footer-app-store {
     position: absolute;
-    right: -5px;
-    bottom: -5px;
-    width: 17px;
-    height: 17px;
+    top: calc(var(--app-icon-size) - 14px);
+    left: calc(50% + var(--app-icon-size) / 2 - 14px);
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background: var(--card-background);
     color: var(--text-primary);
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     display: grid;
     place-items: center;
     box-shadow: 0 0 0 1px var(--border-color);
@@ -360,26 +374,6 @@ body {
 
 .footer-row a.footer-app-store:hover {
     color: var(--primary-color);
-}
-
-@media (max-width: 400px) {
-    .footer-row.footer-apps {
-        gap: 0.3rem;
-    }
-
-    .footer-app img {
-        width: 28px;
-        height: 28px;
-        border-radius: 7px;
-    }
-
-    .footer-row a.footer-app-store {
-        right: -3px;
-        bottom: -3px;
-        width: 14px;
-        height: 14px;
-        font-size: 0.55rem;
-    }
 }
 
 /* Responsive Design */
@@ -421,5 +415,9 @@ body {
 
     .footer-row {
         font-size: 0.7rem;
+    }
+
+    :root {
+        --app-icons-per-row: 5;
     }
 }

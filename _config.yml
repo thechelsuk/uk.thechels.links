@@ -163,19 +163,49 @@ links:
 # Footer links
 footer_links_apps:
   - title: "Tomoz"
+    icon: "/assets/apps/icons/tomoz.png"
+    site: "https://tomoz.thechels.uk"
     url: "https://apps.apple.com/gb/app/tomoz/id6748755747"
 
   - title: "ShortKeys"
+    icon: "/assets/apps/icons/shortkeys.png"
+    site: "https://shortkeys.thechels.uk"
     url: "https://apps.apple.com/gb/app/shortkeys/id6755919256"
 
   - title: "Hiyd"
+    icon: "/assets/apps/icons/hiyd.png"
+    site: "https://hiyd.uk"
     url: "https://apps.apple.com/gb/app/hiyd/id6746853559"
 
   - title: "EngMan"
+    icon: "/assets/apps/icons/engman.png"
+    site: "https://engman.thechels.uk"
     url: "https://apps.apple.com/gb/app/engman/id6747295473"
 
   - title: "Mltply"
+    icon: "/assets/apps/icons/mltply.png"
+    site: "https://mltply.thechels.uk"
     url: "https://apps.apple.com/gb/app/mltply/id6747147316"
+
+  - title: "Nuchronic"
+    icon: "/assets/apps/icons/nuchronic.png"
+    site: "https://nuchronic.co.uk"
+    url: "https://apps.apple.com/gb/app/nuchronic-energy-symptoms/id6817007686"
+
+  - title: "Unsettled"
+    icon: "/assets/apps/icons/unsettled.png"
+    site: "https://unsettled.thechels.uk"
+    url: "https://apps.apple.com/gb/app/unsettled-impossible-escape/id6819058615"
+
+  - title: "Lansdown Foundry"
+    icon: "/assets/apps/icons/foundry.png"
+    site: "https://lansdownfoundry.thechels.uk"
+    url: "https://apps.apple.com/gb/app/lansdown-foundry-make-fonts/id6817508991"
+
+  - title: "Opiuml"
+    icon: "/assets/apps/icons/opiuml.png"
+    site: "https://opiuml.thechels.uk"
+    # No App Store link until launch; the icon shows faded as "coming soon".
 ################
 footer_links_web:
   - title: "Privacy"

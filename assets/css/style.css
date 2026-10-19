@@ -311,6 +311,68 @@ body {
     pointer-events: none;
 }
 
+/* Footer apps: icon links to the marketing site, badge to the App Store */
+.footer-row.footer-apps {
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.footer-row.footer-apps a::after {
+    content: none;
+}
+
+.footer-app {
+    position: relative;
+    display: inline-flex;
+}
+
+.footer-app img {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px var(--shadow);
+    transition: transform var(--transition);
+}
+
+.footer-app a:hover img {
+    transform: translateY(-2px);
+}
+
+.footer-app.is-soon img {
+    opacity: 0.55;
+}
+
+.footer-row a.footer-app-store {
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--card-background);
+    color: var(--text-primary);
+    font-size: 0.55rem;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 0 1px var(--border-color);
+}
+
+.footer-row a.footer-app-store:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 400px) {
+    .footer-row.footer-apps {
+        gap: 0.35rem;
+    }
+
+    .footer-app img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 640px) {
     body {

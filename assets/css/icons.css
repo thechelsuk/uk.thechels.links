@@ -1,0 +1,50 @@
+/*!
+ * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2026 Fonticons, Inc.
+ */
+.fa,.fa-brands,.fa-classic,.fa-regular,.fa-solid,.fab,.far,.fas{--_fa-family:var(--fa-family,var(--fa-style-family,"Font Awesome 7 Free"));-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:var(--fa-display,inline-block);font-family:var(--_fa-family);font-feature-settings:normal;font-style:normal;font-synthesis:none;font-variant:normal;font-weight:var(--fa-style,900);line-height:1;text-align:center;text-rendering:auto;width:var(--fa-width,1.25em)}
+:is(.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands,.fa-classic,.fa):before{content:var(--fa)/""}
+@supports not (content:""/""){:is(.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands,.fa-classic,.fa):before{content:var(--fa)}}
+.fa-arrow-up-from-bracket{--fa:"\e09a"}
+.fa-home{--fa:"\f015"}
+.fa-camera{--fa:"\f030"}
+.fa-arrow-right{--fa:"\f061"}
+.fa-gift{--fa:"\f06b"}
+.fa-shopping-cart{--fa:"\f07a"}
+.fa-feed{--fa:"\f09e"}
+.fa-flask{--fa:"\f0c3"}
+.fa-envelope{--fa:"\f0e0"}
+.fa-file-code{--fa:"\f1c9"}
+.fa-map{--fa:"\f279"}
+.fa-toolbox{--fa:"\f552"}
+.fa-tshirt{--fa:"\f553"}
+:host,:root{--fa-family-brands:"Font Awesome 7 Brands";--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}
+@font-face{font-family:"Font Awesome 7 Brands";font-style:normal;font-weight:400;font-display:block;src:url(../webfonts/fa-brands-400.woff2)}
+.fa-brands,.fa-classic.fa-brands,.fab{--fa-family:var(--fa-family-brands);--fa-style:400}
+.fa-signal-messenger{--fa:"\e663"}
+.fa-bluesky{--fa:"\e671"}
+.fa-web-awesome{--fa:"\e682"}
+.fa-ko-fi{--fa:"\e856"}
+.fa-github{--fa:"\f09b"}
+.fa-pinterest{--fa:"\f0d2"}
+.fa-youtube{--fa:"\f167"}
+.fa-instagram{--fa:"\f16d"}
+.fa-wordpress{--fa:"\f19a"}
+.fa-reddit{--fa:"\f1a1"}
+.fa-twitch{--fa:"\f1e8"}
+.fa-etsy{--fa:"\f2d7"}
+.fa-app-store{--fa:"\f36f"}
+.fa-app-store-ios{--fa:"\f370"}
+.fa-itunes-note{--fa:"\f3b5"}
+.fa-npm{--fa:"\f3d4"}
+.fa-keybase{--fa:"\f4f5"}
+.fa-mastodon{--fa:"\f4f6"}
+:host,:root{--fa-font-regular:normal 400 1em/1 var(--fa-family-classic)}
+.far{--fa-family:var(--fa-family-classic)}
+.fa-regular,.far{--fa-style:400}
+:host,:root{--fa-family-classic:"Font Awesome 7 Free";--fa-font-solid:normal 900 1em/1 var(--fa-family-classic);--fa-style-family-classic:var(--fa-family-classic)}
+@font-face{font-family:"Font Awesome 7 Free";font-style:normal;font-weight:900;font-display:block;src:url(../webfonts/fa-solid-900.woff2)}
+.fas{--fa-style:900}
+.fa-classic,.fas{--fa-family:var(--fa-family-classic)}
+.fa-solid{--fa-style:900}

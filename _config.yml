@@ -9,6 +9,7 @@ include:
 keep_files:
   - assets/webfonts
 exclude:
+  - assets/css/all.min.css
   - Gemfile
   - Gemfile.lock
   - node_modules

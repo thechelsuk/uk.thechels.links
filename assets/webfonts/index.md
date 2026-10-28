@@ -1,6 +1,0 @@
----
----
-
-# Opps
-
-Font Assets Folder.

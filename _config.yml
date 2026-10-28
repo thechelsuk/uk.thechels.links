@@ -206,7 +206,7 @@ footer_links_apps:
   - title: "Opiuml"
     icon: "/assets/apps/icons/opiuml.png"
     site: "https://opiuml.thechels.uk"
-    # No App Store link until launch; the icon shows faded as "coming soon".
+    url: "https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348"
 ################
 footer_links_web:
   - title: "Privacy"

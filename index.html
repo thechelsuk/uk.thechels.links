@@ -138,10 +138,8 @@
                 {% endfor %}
             </div>
             <footer class="footer">
-                <div class="footer-copyright">
-                    &copy; {{ 'now' | date: "%Y" }} {{ site.title }}
-                </div>
                 <div class="footer-links-container">
+                    <h2 class="footer-heading">Applications</h2>
                     <div class="footer-row footer-apps">
                         {% for app in site.footer_links_apps %}
                         <span class="footer-app{% unless app.url %} is-soon{% endunless %}">
@@ -159,6 +157,10 @@
                             {% endif %}
                         </span>
                         {% endfor %}
+                    </div>
+                    <hr class="footer-divider">
+                    <div class="footer-copyright">
+                        &copy; {{ 'now' | date: "%Y" }} {{ site.title }}
                     </div>
                     <div class="footer-row footer-websites">
                         {% for link in site.footer_links_web %}

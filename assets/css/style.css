@@ -38,7 +38,7 @@
 
     /* Footer app icons */
     --app-icon-size: 48px;
-    --app-icons-per-row: 9;
+    --app-icons-per-row: 5;
 }
 
 /* Reset and Base Styles */
@@ -278,7 +278,19 @@ body {
 
 .footer-copyright {
     font-size: 0.75rem;
-    margin-bottom: 0.5rem;
+}
+
+.footer-heading {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Same accent line as the footer's top border */
+.footer-divider {
+    border: 0;
+    border-top: var(--border-width) solid var(--accent-color);
+    margin: 0.25rem 0 0.75rem;
 }
 
 .footer-links-container {
@@ -316,8 +328,8 @@ body {
 }
 
 /* Footer apps: icon links to the marketing site, badge to the App Store.
-   Each icon gets an equal share of the row, like the social bar, so spacing
-   stays even and a wrapped last row is centred. */
+   Each icon gets an equal fifth of the row, so they sit in an evenly spaced
+   5-column grid and a shorter last row is centred. */
 .footer-row.footer-apps {
     gap: 0.75rem 0;
     margin: 0.5rem 0 0.75rem;
@@ -415,9 +427,5 @@ body {
 
     .footer-row {
         font-size: 0.7rem;
-    }
-
-    :root {
-        --app-icons-per-row: 5;
     }
 }

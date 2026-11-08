@@ -207,6 +207,11 @@ footer_links_apps:
     icon: "/assets/apps/icons/opiuml.png"
     site: "https://opiuml.thechels.uk"
     url: "https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348"
+
+  - title: "OPMLMan"
+    icon: "/assets/apps/icons/opmlman.png"
+    site: "https://opmlman.thechels.uk"
+    url: "https://apps.apple.com/app/id6832117624"
 ################
 footer_links_web:
   - title: "Privacy"

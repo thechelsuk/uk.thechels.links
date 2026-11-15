@@ -54,8 +54,6 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-Gemfile.lock
-Gemfile
 
 # OS files
 .DS_Store

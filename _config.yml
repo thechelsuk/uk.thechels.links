@@ -6,6 +6,7 @@ avatar: "assets/logo.png"
 markdown: kramdown
 include:
   - assets/webfonts
+  - .well-known
 keep_files:
   - assets/webfonts
 exclude:

@@ -1,0 +1,8 @@
+# Security
+Contact: mailto:security@thechels.uk
+Expires: 2027-11-17T00:00:00Z
+Encryption: https://thechels.uk/pgp
+Preferred-Languages: en
+Canonical: https://links.thechels.uk/.well-known/security.txt
+
+# Thank you for sharing responsibly

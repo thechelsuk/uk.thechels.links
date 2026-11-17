@@ -214,6 +214,8 @@ footer_links_apps:
     url: "https://apps.apple.com/app/id6832117624"
 ################
 footer_links_web:
+  - title: "Feedback"
+    url: "https://github.com/thechelsuk/uk.thechels.links/issues/new/choose"
   - title: "Privacy"
     url: "https://thechels.uk/.well-known/privacy.txt"
   - title: "Security"

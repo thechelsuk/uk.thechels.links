@@ -1,0 +1,132 @@
+---
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="en-GB">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <title>Page not found - {{ site.title }}</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.png">
+        <link rel="mask-icon" href="/assets/logo.png" color="#005ca3">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="theme-color" content="#005ca3">
+        <meta name="msapplication-TileColor" content="#005ca3">
+        <meta name="msapplication-TileImage" content="/assets/logo.png">
+        <link rel="stylesheet" href="/assets/css/icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/style.css?v={{ site.time | date: "%s" }}">
+        <style>
+            .link-icon img { width: 100%; height: 100%; border-radius: 12px; }
+            .profile-tagline a { color: var(--accent-color); }
+            .not-found-heading { margin: 1.5rem 0 0.75rem; font-size: 1.1rem; }
+        </style>
+        <link rel="webmention" href="https://webmention.io/thechels.uk/webmention" />
+    </head>
+
+    <body>
+        <div class="container">
+            <a href="{{ site.url }}/" class="site-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-arrow-up-from-bracket"></i>
+            </a>
+            <div class="profile">
+                <img src="/{{ site.avatar }}" alt="{{ site.title }}" class="avatar">
+                <div class="profile-info">
+                    <h1 class="profile-name">Page not found</h1>
+                    <p class="profile-tagline">Sorry, there's nothing at this address. The page may have moved, or the link may be wrong. <a href="/">Back to all my links</a>.</p>
+                </div>
+            </div>
+            <div class="links">
+                <a href="https://thechels.uk/" class="link-card">
+                    <div class="link-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="link-content">
+                        <h2 class="link-title">thechels.uk</h2>
+                        <p class="link-description">My main site.</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+            <h2 class="not-found-heading">Apps by thechelsuk</h2>
+            <div class="links">
+                {%- comment -%} OPMLMan is left out until its marketing is published. {%- endcomment -%}
+                {%- for app in site.footer_links_apps %}
+                {%- unless app.title == "OPMLMan" %}
+                <a href="{{ app.site }}/" class="link-card">
+                    <div class="link-icon">
+                        <img src="{{ app.icon }}" alt="" width="48" height="48">
+                    </div>
+                    <div class="link-content">
+                        <h2 class="link-title">{{ app.title }}</h2>
+                        <p class="link-description">{{ app.site | remove: "https://" }}</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+                {%- endunless %}
+                {%- endfor %}
+            </div>
+            <h2 class="not-found-heading">Followed a broken link here?</h2>
+            <div class="links">
+                <a href="https://github.com/thechelsuk/uk.thechels.links/issues/new/choose" class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="link-content">
+                        <h2 class="link-title">Raise an issue</h2>
+                        <p class="link-description">Tell me on GitHub so it can be fixed.</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+            <footer class="footer">
+                <div class="footer-links-container">
+                    <h2 class="footer-heading">Applications</h2>
+                    <div class="footer-row footer-apps">
+                        {% for app in site.footer_links_apps %}
+                        <span class="footer-app{% unless app.url %} is-soon{% endunless %}">
+                            <a href="{{ app.site }}" target="_blank" rel="noopener noreferrer"
+                                title="{{ app.title }}{% unless app.url %} (coming soon){% endunless %}">
+                                <img src="{{ app.icon }}"
+                                    alt="{{ app.title }}{% unless app.url %} (coming soon){% endunless %}" width="48"
+                                    height="48" loading="lazy">
+                            </a>
+                            {% if app.url %}
+                            <a href="{{ app.url }}" class="footer-app-store" target="_blank" rel="noopener noreferrer"
+                                aria-label="{{ app.title }} on the App Store" title="{{ app.title }} on the App Store">
+                                <i class="fa-brands fa-app-store-ios" aria-hidden="true"></i>
+                            </a>
+                            {% endif %}
+                        </span>
+                        {% endfor %}
+                    </div>
+                    <hr class="footer-divider">
+                    <div class="footer-copyright">
+                        &copy; {{ 'now' | date: "%Y" }} {{ site.title }}
+                    </div>
+                    <div class="footer-row footer-websites">
+                        {% for link in site.footer_links_web %}
+                        <a href="{{ link.url }}" target="_blank"
+                            rel="noopener noreferrer">{{ link.title | capitalize }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="i9FSFAekQuon/3aaoIMCZg" async></script>
+    </body>
+
+</html>

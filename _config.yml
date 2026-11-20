@@ -212,7 +212,7 @@ footer_links_apps:
   - title: "OPMLMan"
     icon: "/assets/apps/icons/opmlman.png"
     site: "https://opmlman.thechels.uk"
-    url: "https://apps.apple.com/app/id6832117624"
+    url: "https://apps.apple.com/gb/app/opmlman-feeds-manager/id6832117624"
 ################
 footer_links_web:
   - title: "Feedback"

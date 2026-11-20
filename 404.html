@@ -59,9 +59,7 @@ permalink: /404.html
             </div>
             <h2 class="not-found-heading">Apps by thechelsuk</h2>
             <div class="links">
-                {%- comment -%} OPMLMan is left out until its marketing is published. {%- endcomment -%}
                 {%- for app in site.footer_links_apps %}
-                {%- unless app.title == "OPMLMan" %}
                 <a href="{{ app.site }}/" class="link-card">
                     <div class="link-icon">
                         <img src="{{ app.icon }}" alt="" width="48" height="48">
@@ -74,7 +72,6 @@ permalink: /404.html
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
-                {%- endunless %}
                 {%- endfor %}
             </div>
             <h2 class="not-found-heading">Followed a broken link here?</h2>
